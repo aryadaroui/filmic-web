@@ -1,0 +1,23 @@
+{
+  "name": "filmic-web",
+  "version": "0.1.0",
+  "description": "A filmic image processor",
+  "main": "./Build/main.js",
+  "scripts": {
+    "copy-html": "find ./Source/Page/ -name \\*.html -exec cp {} ./Build/ \\;",
+    "sass-compile": "node-sass ./Source/Page/ -o ./Build/",
+    "start": "tsc && npm run copy-html && npm run sass-compile && electron .",
+    "start-now": "electron ."
+  },
+  "keywords": [
+    "filmic"
+  ],
+  "author": "Arya Daroui",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^18.1.0"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}

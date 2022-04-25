@@ -1,3 +1,51 @@
+*.bak
+*~
+*.swp
+.*.swp
+
+# python cache
+/__pycache__
+
+*.webloc
+*.WEBLOC
+*.DS_Store
+
+
+
+# Executables and libraries
+*.o
+*.out
+*.exe
+*.EXE
+*.msi
+*.MSI
+*.lo
+*.slo
+*.so
+*.a
+*.la
+*.dmg
+*.DMG
+*.iso
+*.ISO
+*.img
+*.IMG
+core
+
+# Archives
+*.zip
+*.tar
+*.tgz
+*.jar
+*.class
+*.log
+
+# Directories
+.sass-cache/
+Build/
+
+##### auto
+
 # Logs
 logs
 *.log
